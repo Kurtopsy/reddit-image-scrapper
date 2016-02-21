@@ -1,0 +1,24 @@
+<html>
+<head>
+        <style type="text/css">
+                img {
+                         height: 90px;
+                         width:  90px;
+                         margin: 8px;
+                         -webkit-box-shadow: 0 0 5px 5px #CFCFCF;
+                         box-shadow: 0 0 5px 5px #CFCFCF;
+                }
+        </style>
+</head>
+<body>
+        {{ for (var i=0; i < it.images.length; i++) {  }}
+                <a href="{{= it.images[i] }}">
+                {{if (it.images[i].match(/imgur/)) { }}
+                        <img src="{{= it.images[i].replace(/(.*)(\.)([^\.]*)/,"$1s.$3") }}"/>
+                {{ } else { }}
+                        <img src="{{= it.images[i] }}"/>
+                {{ } }}
+                </a>
+        {{ } }}
+</body>
+</html>

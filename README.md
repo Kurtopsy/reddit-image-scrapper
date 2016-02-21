@@ -4,7 +4,7 @@ Install Node<br />
 Create project folder on desktop named 'Scrapper'<br />
 Open command prompt and change directories to project folder:<br />
 <ul>
-  <li>cd C:\Users\Username\Desktop\Scrapper</li>
+  <li>cd C:\Users\<i>Username</i>\Desktop\Scrapper</li>
 </ul>
 <br />
 Install dependencies:<br />
@@ -18,7 +18,7 @@ Install dependencies:<br />
 <br />
 Back in command prompt, change directories to project folder:<br />
 <ul>
-  <li>cd C:\Users\Username\Desktop\Scrapper</li>
+  <li>cd C:\Users\<i>Username</i>\Desktop\Scrapper</li>
 </ul>
 <br />
 then type:<br />

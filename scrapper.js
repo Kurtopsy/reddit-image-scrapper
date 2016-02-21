@@ -18,7 +18,8 @@ cookieJar.setCookie('over18=1', 'http://www.reddit.com', {}, function() { });
 
 server.get('/', function(req, res) {
 	var urls = [
-			'http://phish.in/2013-12-31', 
+			'http://reddit.com/r/pics', 
+			'http://reddit.com/r/earthporn',
 		   ];
 	scrapeAll(urls, function(result) {
 		res.render('images.dot', {layout:false, images : result});

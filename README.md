@@ -27,5 +27,7 @@ then type:<br />
 </ul>
 <br />
 Now open your browser and go to http://127.0.0.1:1337 <br />
-Wait for the program to scrape and your images should appear.
+Wait for the program to scrape and your images should appear.<br />
+
+<h3>Subreddits can be changed or added in scrapper.js file. The outputed html can be edited in the images.dot file in 'views' folder.</h3>
 

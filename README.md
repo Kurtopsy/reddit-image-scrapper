@@ -1,3 +1,6 @@
-# reddit-image-scrapper
+# Reddit Image Scrapper
 
-Reddit Image Scrapper
+Install Node
+Create project folder on desktop
+
+
